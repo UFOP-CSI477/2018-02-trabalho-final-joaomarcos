@@ -27,7 +27,7 @@ O objetivo deste documento é apresentar uma proposta para o trabalho a ser dese
 ### 4. Protótipo
   A aplicação possui uma página de registro, na qual o cliente pode registrar sua conta e efetuar o login na página de login. Após estar logado, o usuário pode ver o seu saldo, e navegar na aplicação. Exite a página "Meus dados" onde o usúario pode ver suas infomações e alterar sua foto, na página "Minhas transações" o usuário pode visualizar todos os seus gastos e receitas e filtra-los por data, além de poder editar e excluir. Por fim, em "Adicinar transações" o usuário pode criar novas receitas e despesas.
   
-### 4. Dados do Banco
+### 5. Dados do Banco
   Criar um banco com o nome controle_financeiro e fazer o migrate com os seguintes dados para a conexão:
 	
 	servidor: localhost
