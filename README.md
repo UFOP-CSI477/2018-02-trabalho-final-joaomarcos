@@ -29,8 +29,12 @@ O objetivo deste documento é apresentar uma proposta para o trabalho a ser dese
   
 ### 4. Dados do Banco
   Criar um banco com o nome controle_financeiro e fazer o migrate com os seguintes dados para a conexão:
+	
 	servidor: localhost
+	
 	banco: controle_financeiro
+	
 	usuário: sistemaweb
-	senah: 123456
+	
+	senha: 123456
   
