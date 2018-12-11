@@ -16,13 +16,21 @@ O objetivo deste documento é apresentar uma proposta para o trabalho a ser dese
 <!-- Descrever e limitar o escopo da aplicação. -->
 ### 2. Escopo
 
-  As funcionalidades do projeto serão desenvolvidas durante a disciplina, porém, entre elas estão: possibilitar ao usuário visualizar seu saldo, possibilitar ao usuario insira informações sobre os seus gastos, pertitir a avaliação do que foi gasto, etc. 
+  As funcionalidades são: possibilitar ao usuário visualizar seu saldo, possibilitar ao usuario insira informações sobre os seus gastos, pertitir a avaliação do que foi gasto, etc. 
 
 <!-- Apresentar restrições de funcionalidades e de escopo. -->
 ### 3. Restrições
 
-  As restrições, assim como as funcionalidades, serão aprensentadas durante a disciplina. 
+  A aplicação não permite que o usuário faça compras, apenas que ele registre seus gastos e suas receitas. 
 
 <!-- Construir alguns protótipos para a aplicação, disponibilizá-los no Github e descrever o que foi considerado. //-->
 ### 4. Protótipo
-  Protótipos para as páginas (descrever quais páginas) foram elaborados, e podem ser encontrados em...
+  A aplicação possui uma página de registro, na qual o cliente pode registrar sua conta e efetuar o login na página de login. Após estar logado, o usuário pode ver o seu saldo, e navegar na aplicação. Exite a página "Meus dados" onde o usúario pode ver suas infomações e alterar sua foto, na página "Minhas transações" o usuário pode visualizar todos os seus gastos e receitas e filtra-los por data, além de poder editar e excluir. Por fim, em "Adicinar transações" o usuário pode criar novas receitas e despesas.
+  
+### 4. Dados do Banco
+  Criar um banco com o nome controle_financeiro e fazer o migrate com os seguintes dados para a conexão:
+	servidor: localhost
+	banco: controle_financeiro
+	usuário: sistemaweb
+	senah: 123456
+  
